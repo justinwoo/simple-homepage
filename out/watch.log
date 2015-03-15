@@ -1,0 +1,7 @@
+Building ...
+Analyzing src/lame/core.cljs
+... done. Elapsed 0.120747787 seconds
+Watching path: src
+Change detected, recompiling ...
+Compiling src/lame/core.cljs
+... done. Elapsed 0.123833017 seconds
