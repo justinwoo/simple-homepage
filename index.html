@@ -4,21 +4,56 @@
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
 <script src="https://code.jquery.com/jquery-1.11.2.min.js"></script>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="index.css">
 <title>Justin's Homepage</title>
 </head>
 <body>
-<nav class="navbar navbar-inverse navbar-static-top">
-  <div class="navbar-header">
-    <a class="navbar-brand" href="#">Justin's Homepage</a>
+<div class="backgrounds" id="home">
+  <nav class="navbar navbar-inverse navbar-static-top">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Justin's Homepage</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        <li><a href="#">Home</a></li>
+        <li><a href="#about">About Me</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <div class="jumbotron">
+    <div class="container">
+      <h1>Hello World!</h1>
+      <p>This is a simple website whatnot whatever</p>
+    </div>
   </div>
-  <div id="navbar" class="navbar-collapse collapse">
-    <ul class="nav navbar-nav">
-      <li><a href="#">Home</a></li>
-      <li><a href="#about">About</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
+</div>
+<div class="container">
+  <div class="row" id="about">
+    <div class="col-md-4">
+      <h2>Heading</h2>
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+    </div>
+    <div class="col-md-4">
+      <h2>Heading</h2>
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+    </div>
+    <div class="col-md-4">
+      <h2>Heading</h2>
+      <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+      <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+    </div>
   </div>
-</nav>
+  <div class="row" id="contact">
+    <div class="col-md-offset-4 col-md-4">
+      <h2>Heading</h2>
+      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+      <p><a class="btn btn-default" href="#" role="button">View details »</a></p>
+    </div>
+  </div>
+</div>
 <script type="text/javascript" src="out/main.js"></script>
 </body>
 </html>

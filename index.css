@@ -1,0 +1,62 @@
+.backgrounds {
+  height: 600px;
+  background-size: cover;
+  animation: change-backgrounds 30s linear 0s infinite alternate;
+  /*"did you hand-write these vendor prefixes?"*/
+  -ms-animation: change-backgrounds 30s linear 0s infinite alternate;
+  -webkit-animation: change-backgrounds 30s linear 0s infinite alternate;
+  -moz-animation: change-backgrounds 30s linear 0s infinite alternate;
+}
+
+.navbar {
+  background-color: rgba(0,0,0,.75);
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.jumbotron {
+  color: rgb(200,200,200);
+  padding-top: 75px;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(0,0,0,.5);
+}
+
+/*"oh god, why are you making me load all these images? you monster"*/
+@keyframes change-backgrounds {
+  0% { background-image: url("images/maruyama.jpg"); }
+  35% { background-image: url("images/maruyama.jpg"); }
+  40% { background-image: url("images/hokkaido_jingu.jpg"); }
+  75% { background-image: url("images/hokkaido_jingu.jpg"); }
+  80% { background-image: url("images/cycling_road.jpg"); }
+  100% { background-image: url("images/cycling_road.jpg"); }
+}
+
+/*"did you hand copy these?"*/
+@-ms-keyframes change-backgrounds {
+  0% { background-image: url("images/maruyama.jpg"); }
+  35% { background-image: url("images/maruyama.jpg"); }
+  40% { background-image: url("images/hokkaido_jingu.jpg"); }
+  75% { background-image: url("images/hokkaido_jingu.jpg"); }
+  80% { background-image: url("images/cycling_road.jpg"); }
+  100% { background-image: url("images/cycling_road.jpg"); }
+}
+
+@-moz-keyframes change-backgrounds {
+  0% { background-image: url("images/maruyama.jpg"); }
+  35% { background-image: url("images/maruyama.jpg"); }
+  40% { background-image: url("images/hokkaido_jingu.jpg"); }
+  75% { background-image: url("images/hokkaido_jingu.jpg"); }
+  80% { background-image: url("images/cycling_road.jpg"); }
+  100% { background-image: url("images/cycling_road.jpg"); }
+}
+
+@-webkit-keyframes change-backgrounds {
+  0% { background-image: url("images/maruyama.jpg"); }
+  35% { background-image: url("images/maruyama.jpg"); }
+  40% { background-image: url("images/hokkaido_jingu.jpg"); }
+  75% { background-image: url("images/hokkaido_jingu.jpg"); }
+  80% { background-image: url("images/cycling_road.jpg"); }
+  100% { background-image: url("images/cycling_road.jpg"); }
+}
